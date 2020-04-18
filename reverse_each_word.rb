@@ -5,5 +5,6 @@ def reverse_each_word(sentence)
     #print i.reverse!
     new_arr << i
   end
-  return new_arr.join(" ")
+  new_arr.join(" ")
+  print new_arr.reverse!
 end
