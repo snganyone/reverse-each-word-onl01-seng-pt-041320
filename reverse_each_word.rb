@@ -1,4 +1,6 @@
 def reverse_each_word(sentence)
   arr = sentence.split(" ")
-  return arr
+  arr.each do |i|
+    puts "#{i}"
+  end
 end
