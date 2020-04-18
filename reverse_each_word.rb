@@ -9,7 +9,7 @@ def reverse_each_word(sentence)
       len -= 1
       words += word[len] #Reverses every word in array
     end
-    new_arr << words
+    new_arr << words #Add words to the new array
   end
   new_arr.join(" ")
 end
