@@ -7,7 +7,7 @@ def reverse_each_word(sentence)
     words = ""
     while len > 0
       len -= 1
-      words += word[len]
+      words += word[len] #Reverses every word in array
     end
     new_arr << words
   end
