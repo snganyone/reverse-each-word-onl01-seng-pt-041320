@@ -8,7 +8,8 @@ def reverse_each_word(sentence)
     while len > 0
       len -= 1
       words += word[len]
+    end
+    new_arr << words
   end
-  new_arr << words
   new_arr.join(" ").reverse
 end
